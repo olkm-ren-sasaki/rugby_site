@@ -1,0 +1,382 @@
+@charset "UTF-8";
+/* ---------------------------
+* base
+* ---------------------------- */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: Roboto;
+  position: relative;
+}
+
+/* ---------------------------
+* parts
+* ---------------------------- */
+.sec-title {
+  font-size: 3.6rem;
+  margin-bottom: 77px;
+  text-align: center;
+}
+
+.contact .sec-title {
+  font-family: "Noto Sans CJK JP";
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.inner {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.text {
+  font-size: 2.4rem;
+  line-height: 48px;
+  margin: -12px 0;
+  margin-bottom: 45px;
+  font-weight: bold;
+}
+
+.description {
+  line-height: 30px;
+}
+
+/* ---------------------------
+* header
+* ---------------------------- */
+.header {
+  color: #fff;
+  background-color: #1b1310;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+  height: 74px;
+}
+
+.header .site-title {
+  margin: 24px 0;
+}
+
+.header .site-title a {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header .nav ul {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 26.5px 0;
+}
+
+.header .nav ul .nav_item {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.header .res-nav {
+  display: none;
+}
+
+.header .humberger {
+  display: none;
+}
+
+/* ---------------------------
+* main
+* ---------------------------- */
+.fv {
+  height: 740px;
+  background: url(../images/fv-rugby.jpg) no-repeat;
+  vertical-align: top;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.fv_text {
+  font-size: 60px;
+  height: 140px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 140px;
+  position: absolute;
+  top: 300px;
+  left: calc(50% - 236.5px);
+}
+
+.fv_subtext {
+  position: absolute;
+  top: 420px;
+  left: calc(50% - 236.5px);
+}
+
+/* ---------------------------
+* about
+* ---------------------------- */
+#about {
+  margin-bottom: 150px;
+}
+
+/* ---------------------------
+* service
+* ---------------------------- */
+#service {
+  margin-bottom: 150px;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.content .img {
+  width: 46.6%;
+  display: block;
+  height: auto;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.content .text-area {
+  margin: 25px 70px -8px 0;
+  width: 53.4%;
+}
+
+.content:nth-of-type(1) img {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.content:nth-of-type(1) .text-area {
+  margin: 25px 0 -8px 70px;
+}
+
+/* ---------------------------
+* PV
+* ---------------------------- */
+#pv {
+  margin-bottom: 150px;
+}
+
+.iframe-wrap {
+  margin: 0 auto;
+  width: 560px;
+  height: 315px;
+}
+
+/* ---------------------------
+* news
+* ---------------------------- */
+#news {
+  margin-bottom: 157px;
+  padding: 30px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+#news .description {
+  margin-bottom: 10px;
+}
+
+#news .pdf {
+  font-size: 100px;
+  color: red;
+}
+
+/* ---------------------------
+* contact
+* ---------------------------- */
+#contact {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#contact .description {
+  margin-bottom: 7px;
+}
+
+#contact .twitter {
+  font-size: 100px;
+  color: #00acee;
+}
+
+/* ---------------------------
+* footer
+* ---------------------------- */
+.footer {
+  background-color: #1b1310;
+  height: 79px;
+  width: 100%;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  line-height: 79px;
+}
+
+/* ---------------------------
+* メディアクリ
+* ---------------------------- */
+@media (max-width: 765px) {
+  /* ---------------------------
+  * parts
+  * ---------------------------- */
+  .text {
+    font-size: 2.0rem;
+    margin-bottom: 34px;
+  }
+  .inner {
+    padding: 0 15px;
+  }
+  .header {
+    padding: 0 15px;
+  }
+  .header .nav {
+    display: none;
+  }
+  .header .res-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    text-align: center;
+    background-color: #1b1310;
+    height: 100vh;
+    z-index: 1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .header .res-nav ul {
+    margin-top: calc(50vh - 105px);
+  }
+  .header .res-nav ul li {
+    margin-bottom: 50px;
+  }
+  .header.open .res-nav {
+    right: 0;
+    opacity: 1;
+  }
+  .header .humberger {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 16px;
+    margin-top: 29.5px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .header .humberger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 5;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .header .humberger span:nth-child(1) {
+    top: 0;
+  }
+  .header .humberger span:nth-child(2) {
+    top: 7px;
+  }
+  .header .humberger span:nth-child(3) {
+    bottom: 0;
+  }
+  .header.open .humberger {
+    position: fixed;
+    right: 15px;
+  }
+  .header.open .humberger span:nth-child(1) {
+    top: 7px;
+    -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+  }
+  .header.open .humberger span:nth-child(2) {
+    display: none;
+  }
+  .header.open .humberger span:nth-child(3) {
+    bottom: 7px;
+    -webkit-transform: rotate(-315deg);
+            transform: rotate(-315deg);
+  }
+  .fv {
+    height: 590px;
+  }
+  .fv_text {
+    font-size: 3.0rem;
+    width: 300px;
+    line-height: 100px;
+    height: 100px;
+    top: 245px;
+    left: calc(50% - 160px);
+  }
+  .fv .fv_subtext {
+    top: 320px;
+    left: calc(50% - 140px);
+  }
+  .content {
+    display: block;
+  }
+  .content .img {
+    width: 100%;
+  }
+  .content .text-area {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 45px;
+  }
+  .content:nth-of-type(1) img {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .content:nth-of-type(1) .text-area {
+    margin: 0;
+    margin-bottom: 45px;
+  }
+  .iframe-wrap {
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+  }
+  .wrapper {
+    display: block;
+  }
+  .wrapper .news-item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
