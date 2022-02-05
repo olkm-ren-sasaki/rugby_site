@@ -30,7 +30,7 @@ body {
 .inner {
   max-width: 1270px;
   margin: 0 auto;
-  padding: 0 120px;
+  padding: 30px 120px;
 }
 
 .text {
@@ -138,7 +138,6 @@ body {
 #service {
   margin-bottom: 150px;
   background-color: #f0f0f0;
-  padding: 30px;
 }
 
 .content {
@@ -195,7 +194,6 @@ body {
 * ---------------------------- */
 #news {
   margin-bottom: 157px;
-  padding: 30px;
   text-align: center;
   background-color: #f0f0f0;
 }
@@ -259,7 +257,7 @@ body {
     margin-bottom: 34px;
   }
   .inner {
-    padding: 0 15px;
+    padding: 15px 15px;
   }
   .header {
     padding: 0 15px;
