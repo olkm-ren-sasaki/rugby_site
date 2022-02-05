@@ -8,7 +8,7 @@ html {
 
 body {
   font-size: 1.4rem;
-  font-family: Roboto;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   position: relative;
 }
 
@@ -22,7 +22,6 @@ body {
 }
 
 .contact .sec-title {
-  font-family: "Noto Sans CJK JP";
   font-size: 2.4rem;
   font-weight: bold;
 }
