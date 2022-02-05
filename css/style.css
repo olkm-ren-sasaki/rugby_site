@@ -246,6 +246,12 @@ body {
   /* ---------------------------
   * parts
   * ---------------------------- */
+  .fv {
+    margin-bottom: 50px;
+  }
+  #about, #service, #pv, #news {
+    margin-bottom: 50px;
+  }
   .sec-title {
     font-size: 2.5rem;
   }
