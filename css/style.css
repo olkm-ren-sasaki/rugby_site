@@ -61,14 +61,11 @@ body {
   height: 74px;
 }
 
-.header .site-title {
-  margin: 24px 0;
-}
-
 .header .site-title a {
   display: block;
   font-size: 1.8rem;
   font-weight: bold;
+  line-height: 74px;
 }
 
 .header .nav ul {
@@ -79,7 +76,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 26.5px 0;
+  line-height: 74px;
 }
 
 .header .nav ul .nav_item {

@@ -51,18 +51,19 @@ body {
   padding: 0 100px; 
   height: 74px;
   .site-title {
-    margin: 24px 0;
+    
     a {
       display: block;
       font-size: 1.8rem;
       font-weight: bold;
+      line-height: 74px;
     }
   }
   .nav ul {
     width: 400px;
     display: flex;
     justify-content: space-between;
-    margin: 26.5px 0;
+    line-height: 74px;
     .nav_item {
       font-size: 1.6rem;
       font-weight: normal;
