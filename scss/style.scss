@@ -154,11 +154,21 @@ body {
 #pv {
   margin-bottom: 150px;
  }
-.iframe-wrap {
-  margin: 0 auto;
-  width: 560px;
-  height: 315px;
+.video-wrap {
+  position: relative;
+  width:100%; 
+  height:0; 
+  padding-top: 56.25%; 
   background-color: #1b1310;
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  }
+
 }
 
 /* ---------------------------
@@ -348,11 +358,6 @@ body {
   
     }
   }
-  .iframe-wrap {
-  margin: 0 auto;
-  width: 300px;
-  height: 200px
- }
 
 
   .wrapper {
